@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#city-title {
+  margin: 0;
+}
+
+.search-container {
+  margin-top: 10px;
+  position: relative;
+}
+
+#city-search {
+  padding: 5px;
+  width: 300px;
+}
+
+#search-button {
+  padding: 5px 10px;
+}
+
+#suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#suggestions li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.tab {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.tab.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
